@@ -13,6 +13,7 @@ Teacher PIN: 1234
 Admin PIN: 9999
 
 Students don't need a PIN, but their email must include the word "tuwaiq".
+
 ---
 
 ## 🌟 Features
