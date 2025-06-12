@@ -33,7 +33,8 @@ Built with **React**, **Tailwind CSS**, and **MockAPI**, Acadify simplifies the 
 
 ## 🖼️ Screenshots
 
-> Add screenshots here (e.g., Student Dashboard, Admin Page, Welcome Page)
+### 🎉 Welcome Page  
+![Welcome Page](https://user-images.githubusercontent.com/12345678/abcdefg.png)
 
 ---
 
