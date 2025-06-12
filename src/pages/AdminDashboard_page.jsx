@@ -94,7 +94,7 @@ const AdminDashboard_page = () => {
 
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4">Overview</h2>
-        <div className="bg-white p-4 rounded shadow">
+        <div className="w-full md:w-2/3 mx-auto">
           <Bar data={chartData} />
         </div>
       </section>
