@@ -34,7 +34,7 @@ Built with **React**, **Tailwind CSS**, and **MockAPI**, Acadify simplifies the 
 ## 🖼️ Screenshots
 
 ### 🎉 Welcome Page  
-![Welcome Page](https://user-images.githubusercontent.com/12345678/abcdefg.png)
+![Welcome_page](https://github.com/user-attachments/assets/7ad471d6-2191-447a-a8fb-b431305a0cf4)
 
 ---
 
