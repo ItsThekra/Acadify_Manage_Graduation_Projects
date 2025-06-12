@@ -5,6 +5,15 @@
 Built with **React**, **Tailwind CSS**, and **MockAPI**, Acadify simplifies the academic project workflow — from idea submission to approval and progress tracking.
 
 ---
+🔐 Roles & Access PINs
+To register as a Teacher or Admin, you need to enter a valid PIN during registration:
+
+Teacher PIN: 1234
+
+Admin PIN: 9999
+
+Students don't need a PIN, but their email must include the word "tuwaiq".
+---
 
 ## 🌟 Features
 
