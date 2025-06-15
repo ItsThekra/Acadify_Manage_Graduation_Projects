@@ -20,16 +20,14 @@ const Welcome_page = () => {
           </Link>
         </div>
 
-        {/* Optionally: A label/tag */}
         <div className="mt-6 inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
           For students, teachers, and admins
         </div>
       </div>
 
-      {/* Right Side Illustration */}
       <div className="hidden md:flex mt-10 md:mt-0">
         <img
-          src="public\welcome.svg" // صورة توضيحية، تقدر تغيرها
+          src="public\welcome.svg"
           alt="Project Illustration"
           className="w-120 h-100 object-contain"
         />

@@ -5,9 +5,8 @@ import Swal from 'sweetalert2';
 const IdeaForm_component = ({ onIdeaAdded }) => {
   const [title, setTitle] = useState('');
 
-  // ⬇️ استرجاع بيانات الطالب من localStorage
   const student = JSON.parse(localStorage.getItem('user'));
-  const teacherId = student.teacherId; // ⬅️ جلب رقم المعلم المسؤول عن الطالب
+  const teacherId = student.teacherId; 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,14 +23,14 @@ const IdeaForm_component = ({ onIdeaAdded }) => {
           title,
           status: 'pending',
           studentId: student.id,
-          teacherId: teacherId, // ⬅️ الآن الفكرة مرتبطة بالمعلم
+          teacherId: teacherId, 
           reason: '',
         }
       );
 
       Swal.fire('Success', 'Idea submitted successfully!', 'success');
       setTitle('');
-      onIdeaAdded(); // 🔄 إعادة تحميل الأفكار بعد الإضافة
+      onIdeaAdded(); 
     } catch (err) {
       Swal.fire('Error', 'Failed to submit idea', 'error');
     }

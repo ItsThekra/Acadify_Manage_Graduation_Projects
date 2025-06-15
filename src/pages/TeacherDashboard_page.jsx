@@ -2,32 +2,30 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
-const TeacherDashboard_page= () => {
+const TeacherDashboard_page = () => { 
   const teacher = JSON.parse(localStorage.getItem('user'));
-  const teacherId = teacher?.id;
+  const teacherId = teacher?.id; 
 
-  const [ideas, setIdeas] = useState([]);
+  const [ideas, setIdeas] = useState([]); 
   const [rejectionReasons, setRejectionReasons] = useState({});
 
-  // Get ideas for this teacher
   const fetchIdeas = () => {
-    axios
-      .get(
+    axios.get(
         `https://68472e6c7dbda7ee7ab1b9cc.mockapi.io/ProjectManagementSystem/ideas?teacherId=${teacherId}`
       )
-      .then((res) => setIdeas(res.data));
+      .then( (res) => setIdeas(res.data));
   };
 
   useEffect(() => {
     fetchIdeas();
-  }, [teacherId]);
-
+  }, []);
+ 
   // Accept idea
   const handleAccept = async (ideaId) => {
     try {
       await axios.put(
         `https://68472e6c7dbda7ee7ab1b9cc.mockapi.io/ProjectManagementSystem/ideas/${ideaId}`,
-        { status: 'accepted' }
+
       );
       Swal.fire('Accepted', 'Idea has been approved.', 'success');
       fetchIdeas();
@@ -58,6 +56,22 @@ const TeacherDashboard_page= () => {
       Swal.fire('Error', 'Something went wrong.', 'error');
     }
   };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   return (
     <div className="p-6 max-w-5xl mx-auto">
@@ -133,4 +147,3 @@ const TeacherDashboard_page= () => {
 export default TeacherDashboard_page;
 
 
-// export default TeacherDashboard;

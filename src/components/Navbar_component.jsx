@@ -4,7 +4,7 @@ import { Link, useNavigate, useLocation } from 'react-router';
 const Navbar_component = () => {
   const user = JSON.parse(localStorage.getItem('user'));
   const navigate = useNavigate();
-  const location = useLocation(); // 🟡 هذا يخبرنا بمسار الصفحة الحالية
+  const location = useLocation(); 
 
   const handleLogout = () => {
     localStorage.removeItem('user');
@@ -18,7 +18,7 @@ const Navbar_component = () => {
 
       {/* Links */}
       <div className="space-x-6">
-        {/* 🟢 هذا يظهر فقط إذا ما كنا في الصفحة الرئيسية */}
+        
         {location.pathname !== '/' && (
           <Link to="/" className="text-gray-700 hover:text-green-600 font-medium">Home</Link>
         )}

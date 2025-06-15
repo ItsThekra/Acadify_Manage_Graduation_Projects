@@ -11,9 +11,8 @@ const StudentDashboard_page = () => {
   const [allAcceptedIdeas, setAllAcceptedIdeas] = useState([]);
 
   const student = JSON.parse(localStorage.getItem('user'));
-  const studentId = student?.id; // ? = for avoiding crash the code
+  const studentId = student?.id; 
 
-  // بتجيب كل الافكار الخاصة بالطالب
   const fetchIdeas = () => {
     axios.get(`https://68472e6c7dbda7ee7ab1b9cc.mockapi.io/ProjectManagementSystem/ideas?studentId=${studentId}`)
       .then((res) => setIdeas(res.data));

@@ -2,42 +2,44 @@
 
 **Acadify** is a modern, web-based platform that helps students, teachers, and administrators manage graduation projects efficiently and collaboratively.
 
-Built with **React**, **Tailwind CSS**, and **MockAPI**, Acadify simplifies the academic project workflow — from idea submission to approval and progress tracking.
+Built with **React**, **Tailwind CSS**, and **MockAPI**, Acadify simplifies the academic project workflow — from idea submission to approval and team coordination.
 
 ---
-🔐 Roles & Access PINs
-To register as a Teacher or Admin, you need to enter a valid PIN during registration:
 
-Teacher PIN: 1234
+## 🔐 Roles & Access PINs
 
-Admin PIN: 9999
+To register as a **Teacher** or **Admin**, a valid PIN must be entered:
 
-Students don't need a PIN, but their email must include the word "tuwaiq".
+- **Teacher PIN**: `1234`
+- **Admin PIN**: `9999`
+
+📝 **Students** don’t need a PIN, but their email must contain the word **`tuwaiq`**.
 
 ---
 
 ## 🌟 Features
 
 ### 👨‍🎓 Student Panel
-- Register/Login (email must include `tuwaiq`)
-- Submit a new project idea
-- Track the idea status (Pending, Accepted, Rejected)
-- View team members and contact info
-- See assigned supervisor
-- Browse all accepted ideas to avoid duplication
+- Register & Login (email must include `tuwaiq`)
+- Submit graduation project ideas
+- View idea status: Pending, Accepted, or Rejected
+- View assigned supervisor and team members
+- Browse approved ideas to avoid duplication
 
 ### 👨‍🏫 Teacher Panel
-- View students assigned to you
+- View assigned students
 - Review submitted ideas
 - Accept or reject ideas with a reason
 
 ### 🛠 Admin Panel
-- View and manage all users (students/teachers)
+- View all students and teachers
 - Assign teachers to students
-- Add, edit, or delete users
-- Modify project ideas or delete rejected ones
+- Edit or delete users (students/teachers)
+- Approve or reject ideas with comments
+- Delete rejected ideas
 - Filter students by name
-- Interactive dashboard with charts
+- Add new users manually (student/teacher)
+- View summary dashboard with interactive charts
 
 ---
 
@@ -50,15 +52,15 @@ Students don't need a PIN, but their email must include the word "tuwaiq".
 
 ## ⚙️ Tech Stack
 
-| Technology    | Usage                             |
+| Technology    | Description                       |
 |---------------|-----------------------------------|
 | React         | Frontend framework                |
-| Tailwind CSS  | UI styling                        |
-| React Router  | Navigation between pages          |
-| Axios         | HTTP requests                     |
-| SweetAlert2   | Elegant popup modals              |
-| Chart.js      | Admin dashboard charts            |
-| MockAPI       | Mock backend (CRUD functionality) |
+| Tailwind CSS  | Modern UI styling                 |
+| React Router  | Page navigation                   |
+| Axios         | HTTP requests to MockAPI          |
+| SweetAlert2   | Elegant alert & confirmation modals |
+| Chart.js      | Dashboard chart visualization     |
+| MockAPI       | Mock backend for users & ideas    |
 
 ---
 
@@ -69,3 +71,4 @@ Students don't need a PIN, but their email must include the word "tuwaiq".
 ```bash
 git clone https://github.com/yourusername/acadify.git
 cd acadify
+
