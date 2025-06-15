@@ -27,7 +27,7 @@ const Welcome_page = () => {
 
       <div className="hidden md:flex mt-10 md:mt-0">
         <img
-          src="public\welcome.svg"
+          src="https://png.pngtree.com/png-vector/20220725/ourmid/pngtree-web-site-development-programmer-girl-png-image_6074556.png"
           alt="Project Illustration"
           className="w-120 h-100 object-contain"
         />
