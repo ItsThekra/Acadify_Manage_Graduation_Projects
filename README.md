@@ -1,4 +1,4 @@
-# 🎓 Acadify - Graduation Project Management System
+#  Acadify - Graduation Project Management System
 
 **Acadify** is a modern, web-based platform that helps students, teachers, and administrators manage graduation projects efficiently and collaboratively.
 
@@ -6,32 +6,32 @@ Built with **React**, **Tailwind CSS**, and **MockAPI**, Acadify simplifies the 
 
 ---
 
-## 🔐 Roles & Access PINs
+##  Roles & Access PINs
 
 To register as a **Teacher** or **Admin**, a valid PIN must be entered:
 
 - **Teacher PIN**: `1234`
 - **Admin PIN**: `9999`
 
-📝 **Students** don’t need a PIN, but their email must contain the word **`tuwaiq`**.
+ **Students** don’t need a PIN, but their email must contain the word **`tuwaiq`**.
 
 ---
 
-## 🌟 Features
+##  Features
 
-### 👨‍🎓 Student Panel
+###  Student Panel
 - Register & Login (email must include `tuwaiq`)
 - Submit graduation project ideas
 - View idea status: Pending, Accepted, or Rejected
 - View assigned supervisor and team members
 - Browse approved ideas to avoid duplication
 
-### 👨‍🏫 Teacher Panel
+###  Teacher Panel
 - View assigned students
 - Review submitted ideas
 - Accept or reject ideas with a reason
 
-### 🛠 Admin Panel
+###  Admin Panel
 - View all students and teachers
 - Assign teachers to students
 - Edit or delete users (students/teachers)
@@ -43,14 +43,14 @@ To register as a **Teacher** or **Admin**, a valid PIN must be entered:
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 🎉 Welcome Page  
+### Welcome Page  
 ![Welcome_page](https://github.com/user-attachments/assets/7ad471d6-2191-447a-a8fb-b431305a0cf4)
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Technology    | Description                       |
 |---------------|-----------------------------------|
@@ -64,7 +64,7 @@ To register as a **Teacher** or **Admin**, a valid PIN must be entered:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
