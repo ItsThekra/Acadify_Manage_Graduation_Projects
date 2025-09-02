@@ -69,6 +69,6 @@ To register as a **Teacher** or **Admin**, a valid PIN must be entered:
 ### 1. Clone the repository
 
 ```bash
-https://github.com/ItsThekra/Acadify_Manage_Graduation_Projects.git
+git clone https://github.com/ItsThekra/Acadify_Manage_Graduation_Projects.git
 cd acadify
 
