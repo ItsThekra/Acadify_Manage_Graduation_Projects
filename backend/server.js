@@ -9,11 +9,12 @@ app.get('/' , (req, res) =>{
     res.send('Hello World');
 })
 
-app.use('/api/auth', authRouter) // Diff something need to work on it 
-// هذا الاساس
+// no
+app.use(express.json()); // to parse json data in request body
+// no
+app.use('/api/auth', authRouter) 
 
 app.listen(3000,  () => {
     connectDB();
     console.log('Server is running on port 3000');
-    
 })
